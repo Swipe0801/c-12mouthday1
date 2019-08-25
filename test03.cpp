@@ -1,20 +1,10 @@
-#include<iostream>
+#include <bits/stdc++.h>
+using namespace std;
 
-int main(void) {
-
-	//³ªÀÌ¸¦ ÀÔ·ÂÇÏ°í Ãâ¹ßÇÏ´Â ÇÁ·Î±×·¥ ÀÛ¼º
-	int age;
-	std::cout << "³ªÀÌ¸¦ ÀÔ·ÂÇÏ½Ã¿À";
-	//scanf_s("%d <&age");//c¾ğ¾î¿¡¼­ÀÇ ÀÔ·Â 
-	std::cin >> age;
-	//std::cin >> ÀÔ·Â´ë»ó >> ÀÔ·Â´ë»ó....;
-
-	//cin - Ç¥ÁØ ÀÔ·Â °´Ã¼
-
-	// >> (¿ìÃø½¬ÇÁÆ®¿¬»êÀÚ)
-	// - cin °´Ã¼ ¿¡¼­´Â ÀÔ·Â´ë»óÀ» ±¸ºÎÁş´Â ¿¬»êÀÚ....
-
-	std::cout << "³ªÀÌ  : " << age << std::endl;
-	
+int main() {
+	int age = 0;
+	cout << "ë‚˜ì´ë¥¼ ì…ë ¥í•˜ì„¹ìš” : ";
+    	cin >> age;
+	cout << endl << "ë‚˜ì´  : " << age << endl;
 	return 0;
 }
